@@ -77,6 +77,15 @@ production; every real nickname replaced with a placeholder. The spec walks thro
 thing, including a couple of open questions about the balance and one latent array-bounds limit
 that's worth knowing about before raising the player cap.
 
+## Community and player reference
+
+- [`docs/multiplayer-manual.md`](docs/multiplayer-manual.md) explains vanilla Deathmatch,
+  the historical Hardmatch respawn layer, the retained weapon/outfit catalogue, and the
+  difference between documented behavior and a live-server promise.
+- [`docs/rest-bridge-ideas.md`](docs/rest-bridge-ideas.md) maps safe future integration with
+  a site, player cabinet, Telegram, Discord, operator tools, and an LLM assistant. It keeps
+  REST and inbound-command ideas explicitly separate from proven plugin capabilities.
+
 ### A gotcha specific to building on Linux, not covered above
 
 Native Linux `fasm` (the `fasm` apt package, no wine needed) resolves nested `include`
